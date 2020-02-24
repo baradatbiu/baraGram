@@ -13,9 +13,9 @@
                 <div class="pr-5"><strong>23K</strong> followers</div>
                 <div class="pr-5"><strong>212</strong> folowing</div>
             </div>
-            <div class="pt-4 font-weight-bold">baradaGram.org</div>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis exercitationem minus, accusamus perferendis blanditiis pariatur eius. Nisi autem temporibus cum.</div>
-            <div><a href="#">www.baradaGram.org</a></div>
+            <div class="pt-4 font-weight-bold">{{ $user->profile->title }}</div>
+            <div>{{ $user->profile->description }}</div>
+            <div><a href="#">{{ $user->profile->url }}</a></div>
         </div>
     </div>
 
